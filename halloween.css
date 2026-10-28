@@ -8,5 +8,36 @@
 .container{
     width: 100vw;
     height: 100vh;
-    background-image: url(img/Screenshot\ 2026-10-27\ 124654.png);
+    background-image: url(img/Untitled\ design\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+.logo{
+    width: 400px;
+    padding: 20px 0;
+    height: auto;
+    cursor: pointer;
+    
+}
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50);
+    color: #60a83f;
+    font-weight:bold ;
+}
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.content h1 span{
+    color: #ff3753;
+}
+.content button{
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
 }
