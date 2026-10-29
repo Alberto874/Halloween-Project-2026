@@ -32,7 +32,7 @@
     font-weight: 600;
 }
 .content h1 span{
-    color: #ff3753;
+    color: #000000;
 }
 .content button{
     background: transparent;
@@ -40,4 +40,39 @@
     outline: none;
     padding: 12px 25px;
     color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.content button img{
+    width: 75px;
+    margin: 10px;
+}
+.launch-time{
+    display: flex; 
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+.witch{
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    top: 0;
+    animation: witch 4s linear infinite;
+}
+@keyframes witch {
+    0%{
+        right: 0;
+        opacity: 0;
+    }
+    100%{
+        right: 105%;
+        opacity: 1;
+    }
 }
